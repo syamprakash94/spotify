@@ -1,0 +1,320 @@
+*{
+    margin: 0%;
+}
+.container{
+    width: 100%;
+    height: 74px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: 100px;
+
+}
+.spotify-logo{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.buttons{
+    width: 500px;   
+    height: 74;
+}
+.buttons-li{
+color: white;
+line-height: 50px;
+text-decoration: none;
+display: inline-block;
+padding: 10px;
+font-weight: bold;
+font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+}
+.image{
+    position: absolute;
+    top: 179px;
+    width: 267px;
+    height: 445px;
+    right: 861px;
+    border-radius: 25px 25px 0 0;
+}
+.main-text{
+    position: absolute;
+    top: 264px;
+    right: 138px;
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    line-height: 1.15;
+    max-width: 653px;
+    display: block;
+}
+.butten-text{
+    position: absolute;
+    height: 50px;
+    width: 189px;
+    top: 9px;
+    right: 10px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+    line-height: 29px;
+    font-size: inherit;
+    font-size: small;
+    font-weight: bold;
+}
+
+.square{
+    position: absolute;
+    top: 413px;
+    width: 197px;
+    height: 50px;
+    border: 3px solid;
+    right: 546px;
+    border-radius: 35px 35px 35px 35px;
+}
+.square1{
+    position: absolute;
+    width: 193px;
+    height: 45px;
+    background-color: white;
+    border-radius: 35px 35px 35px 35px;
+    right: 2px;
+    top: 2px;
+}
+.why-spotify{
+   
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    font-weight: 900;
+    padding: 50px;
+    
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+.why{
+    width: 100%;
+    height: 150px;
+    margin: 0%;
+    text-align: center;
+}
+.section{
+display: flex;
+justify-content: space-evenly;
+height: 439px;
+align-items: center;
+overflow: hidden;
+}
+.image-container{
+width: 258px;
+height: 450px;
+}
+.image-a{
+    width: 140px;
+    
+}
+.icons-text1{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+.icons-text2{
+    font-size: 16px;
+    padding: 0px;
+    margin-top: 0px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+.icons-text3{
+    font-size: 16px;
+    margin-top: 18px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+.background{
+   position: absolute;
+   top: 1124px;
+   width: 100%;
+   text-align: ;
+}
+.background-text{
+   position: absolute;
+   bottom: 171px;
+   right: 341px;
+   font-size: 48px;
+   color: white;
+   font-weight: 900;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+.got{
+    width: 100%;
+    height: 200px;
+    margin-top: 414px;
+    /* background-color: aqua; */
+}
+.got1{
+    font-weight: 900;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    font-weight: 900;
+    padding: 63px;
+}
+
+.table-main{
+    margin-top: 20px;
+    width: 90%; 
+    height: 78px;
+    font-size: 9px;
+    font-weight: 900;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    margin-left: 62px;
+    position: absolute;
+    top: 1814px;
+  
+    
+} 
+ .table-sub1 h1{
+     width: 99%; 
+    border-bottom: 1px solid rgb(236, 230, 230);
+    height: 78px;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    margin-top: 0px;
+    line-height: 81px;
+    
+
+}
+.table-sub2 h1{
+    width: 99%; 
+    height: 78px;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    margin-top: 0px;
+    line-height: 81px;
+}
+.table-1mage1{
+margin-left: 810px;
+}
+.table-1mage2{
+    margin-left: 717px;
+}
+.table-1mage3{
+    margin-left: 679px;
+}
+.table-1mage4{
+    margin-left: 806px
+}
+.ready-background{
+    margin-top: 500px; 
+    padding-top: 973px;
+}
+.ready-background p{
+ position: absolute;
+ top: 2415px;
+ right: 290px;
+ font-size: 69px;
+   color: white;
+   font-weight: 900;
+    letter-spacing: 0.2;
+    line-height: 1.2;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif; 
+}
+.ready-button{
+    position: absolute;
+    width: 193px;
+    height: 45px;
+    background-color: white;
+    border-radius: 35px 35px 35px 35px;
+    right: 545px;
+    top: 2533px;
+}
+.ready-button h1{
+    position: absolute;
+    height: 50px;
+    width: 189px;
+    top: 9px;
+    right: 10px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+    line-height: 29px;
+    font-size: inherit;
+    font-size: small;
+    font-weight: bold;
+}
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    margin-top: -4px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-sub{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 106px;
+}
+.footer1{
+    
+    width: 215px;
+    height: 400px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+
+}
+.footerlogs1{
+    margin-top: 150px;
+padding-right: 50px;
+}
+.footerlogo{
+
+    padding-top: 0px;
+    padding-left: 35px;
+} 
+
+.footer-endmain{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+}
+.footer-endsub1{
+    display: flex;
+    
+    width: 300px;
+   
+}
+.footer-endsub1{
+    font-size: 11px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    
+    margin-bottom: 40px;
+   
+
+
+}
+.footer-endsub{
+    
+    width: 500px;
+    display:flex;
+    margin-right: 20px;
+}
+ .footer-endsub p{
+    margin-left: 40px;
+    font-size: 11px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+
+} 
+
+.image-globe{
+    padding-left: 77px;
+} 
+
+
